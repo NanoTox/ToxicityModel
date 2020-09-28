@@ -1,5 +1,5 @@
 set.seed(105)
-sink("summary_of_output_from_toxicity_analysis.txt")
+
 #### Reading required libraries
 library(plyr)
 library(caret)
@@ -77,6 +77,7 @@ colnames(test_data) <- ColumnNames
 source("normalise.R")
 train_data <- normalise(train_data)
 test_data <- normalise(test_data)
+save(train_data, file = "normalised_train_data.Rdata")
 
 #### Train data Balancing using SMOTE
 train_data_bal <- SMOTE(class_s~.,train_data)
@@ -190,3 +191,4 @@ test_for_nn_b$pred <- predict(mlp_fit,test_for_nn_b)
 caret::confusionMatrix(test_for_nn_b$pred,test_for_nn_b$class_s, positive = "1")
 
 saveRDS(mlp_fit,file = "model_neuralNet_2layer.rds")
+
