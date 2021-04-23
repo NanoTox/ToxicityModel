@@ -20,10 +20,7 @@ Data:
 
 Citation:
 --------
-NanoTox: Development of a Parsimonious In Silico Model for Toxicity Assessment of Metal-Oxide Nanoparticles Using Physicochemical Features
-Nilesh Anantha Subramanian and Ashok Palaniappan
-ACS Omega Article ASAP
-DOI: 10.1021/acsomega.1c01076
+__Nilesh Anantha Subramanian and Ashok Palaniappan__. NanoTox: Development of a Parsimonious In Silico Model for Toxicity Assessment of Metal-Oxide Nanoparticles Using Physicochemical Features. __ACS Omega__ Article ASAP __DOI__: [10.1021/acsomega.1c01076] (https://pubs.acs.org/doi/10.1021/acsomega.1c01076)
 
 Correspondence: apalania@scbt.sastra.edu (A.P.)
 
