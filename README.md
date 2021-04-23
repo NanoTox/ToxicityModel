@@ -18,12 +18,14 @@ Data:
 2. model_\*\*\*.RDS: RDS objects of the machine learning models created (namely Logistic, RandomForest, SVM, Neural Nets)
 3. normalised_train_data.Rdata: R object of the normalised train data used in the study.
 
-Manuscript submitted
+Citation:
+--------
+NanoTox: Development of a Parsimonious In Silico Model for Toxicity Assessment of Metal-Oxide Nanoparticles Using Physicochemical Features
+Nilesh Anantha Subramanian and Ashok Palaniappan
+ACS Omega Article ASAP
+DOI: 10.1021/acsomega.1c01076
 
-Authors:
-Nilesh Ananthasubramanian & Ashok Palaniappan
-
-For correspondence: apalania@scbt.sastra.edu (A.P.)
+Correspondence: apalania@scbt.sastra.edu (A.P.)
 
 Copyright (c) 2020 the Authors. MIT License
 
